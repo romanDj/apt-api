@@ -7,7 +7,7 @@ var crypto = require('crypto');
 var app = express();
 
 /*Настройки*/
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8000;
 const SALT = "danirJS"; //строка для соли
 
 app.use("/img", express.static(__dirname + "/img"));
